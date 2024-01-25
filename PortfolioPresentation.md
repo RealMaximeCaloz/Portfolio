@@ -5,7 +5,7 @@ Click here to view this project's code repository
 
 This project was made with Java (Libraries: Concurrent, Arraylist).
 
-This software takes a Sudoku board as an input (array of numbers from 1 to 9, with 0's reprensenting empty cells), solves the board through a recursive algorithm and prints the result.
+This software takes a Sudoku board as an input (array of numbers from 1 to 9, with 0's representing empty cells), solves the board through a recursive algorithm and prints the result.
 
 An example of an initial Sudoku board to solve:
 
@@ -27,7 +27,7 @@ This project was made with Java (Libraries: AWT, I/O, Graphics).
 
 This software takes into input a folder filled with images (backgrounds for posts), and an array of strings with the text to add to each post.
 
-This software will crop all the images in bulk down to square size, dim the images to increase constrast with text, and will add 1 string from the array of strings to each image.
+This software will crop all the images in bulk down to square size, dim the images to increase contrast with text, and will add 1 string from the array of strings to each image.
 
 This effectively generates Instagram posts in bulk extremely quickly with little-to-no effort.
 
@@ -60,7 +60,7 @@ Example of the combined image, which contains the hidden image:
 
 ![combined image](https://github.com/RealMaximeCaloz/Portfolio/blob/7b6f6c8bc71cd3dca12de19d0a39c66480079096/composite-image-with-hidden-image.jpg)
 
-You (or the party you are trying to send a hidden message to) can also run an image extractor in the software which will extract the hidden image from the combined image.
+You (or the party you are trying to send a hidden message to) can also run an image extractor in the software, which will extract the hidden image from the combined image.
 
 Example of the hidden image extracted from the combined image:
 
@@ -68,4 +68,4 @@ Example of the hidden image extracted from the combined image:
 
 As you can see, the extracted hidden image has inherited a few visual artefacts.
 
-Howeveer, its depiction is still blatantly obvious, despite having been secretly cloaked in a completely different image.
+However, its depiction is still blatantly obvious, despite having been secretly cloaked in a completely different image.
