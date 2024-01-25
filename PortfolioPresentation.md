@@ -36,7 +36,7 @@ You can even brand the posts with your own Instagram handle, to prevent content 
 If you want to generate 1000 posts in seconds, so that you do not have to worry about content creation for the next 3 years, you can simply use this software.
 
 Example of a generated Instagram post:
-![generated post example]()
+![generated post example](https://github.com/RealMaximeCaloz/Portfolio/blob/9bafd87537acef1f05bb3b98450d5e4c2e436707/GeneratedInstagramPostExample.jpg)
 
 ___
 ## Image Cryptography Tool
@@ -44,5 +44,28 @@ Click here to view this project's code repository
 
 This project was made with Python (Libraries: PIL, NumPy).
 
+This software uses bitwise operations to cloak a given image within the image information of another image, making it nearly invisible to unsuspecting parties.
 
+Example of an image to hide:
 
+![image to hide]()
+
+Example of the container image in which you want to cloak your hidden image:
+
+![container image]()
+
+After running this software, you obtain a combined image which contains the hidden image, but it looks very much like the unmodified container image.
+
+Example of the combined image, which contains the hidden image:
+
+![combined image]()
+
+You (or the party you are trying to send a hidden message to) can also run an image extractor in the software which will extract the hidden image from the combined image.
+
+Example of the hidden image extracted from the combined image:
+
+![extracted image]()
+
+As you can see, the extracted hidden image has inherited a few visual artefacts.
+
+Howeveer, its depiction is still blatantly obvious, despite having been secretly cloaked in a completely different image.
