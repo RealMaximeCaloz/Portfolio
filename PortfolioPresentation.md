@@ -1,7 +1,7 @@
 # Portfolio
 ___
 ## Multithreaded Sudoku Solver
-Click here to view this project's code repository
+[Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Multithreaded-Sudoku-Solver)
 
 This project was made with Java (Libraries: Concurrent, Arraylist).
 
@@ -21,7 +21,7 @@ The Sudoku board is solved very quickly, even if it is near-impossible to solve 
 
 ___
 ## Commercial Bulk Instagram Post Generator
-Click here to view this project's code repository
+[Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Commercial-Bulk-Instagram-Post-Generator)
 
 This project was made with Java (Libraries: AWT, I/O, Graphics).
 
@@ -40,7 +40,7 @@ Example of a generated Instagram post:
 
 ___
 ## Image Cryptography Tool
-Click here to view this project's code repository
+[Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Image-Cryptography-Tool)
 
 This project was made with Python (Libraries: PIL, NumPy).
 
