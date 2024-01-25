@@ -10,11 +10,11 @@ A new ExecutorService job is submitted for each number which would be a valid gu
 
 An example of an initial Sudoku board to solve:
 
-!(https://github.com/RealMaximeCaloz/Portfolio/blob/ba2f7d42176e32726565c832dc0f597c661cd021/startingboard.png)
+![starting board](https://github.com/RealMaximeCaloz/Portfolio/blob/ba2f7d42176e32726565c832dc0f597c661cd021/startingboard.png)
 
 The Sudoku board is solved very quickly:
 
-!(https://github.com/RealMaximeCaloz/Portfolio/blob/ba2f7d42176e32726565c832dc0f597c661cd021/finalboard.png)
+![final board](https://github.com/RealMaximeCaloz/Portfolio/blob/ba2f7d42176e32726565c832dc0f597c661cd021/finalboard.png)
 
 
 
