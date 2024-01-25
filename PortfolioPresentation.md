@@ -48,23 +48,23 @@ This software uses bitwise operations to cloak a given image within the image in
 
 Example of an image to hide:
 
-![image to hide]()
+![image to hide](https://github.com/RealMaximeCaloz/Portfolio/blob/7b6f6c8bc71cd3dca12de19d0a39c66480079096/epiccar.jpg)
 
 Example of the container image in which you want to cloak your hidden image:
 
-![container image]()
+![container image](https://github.com/RealMaximeCaloz/Portfolio/blob/7b6f6c8bc71cd3dca12de19d0a39c66480079096/basiccar.jpg)
 
 After running this software, you obtain a combined image which contains the hidden image, but it looks very much like the unmodified container image.
 
 Example of the combined image, which contains the hidden image:
 
-![combined image]()
+![combined image](https://github.com/RealMaximeCaloz/Portfolio/blob/7b6f6c8bc71cd3dca12de19d0a39c66480079096/composite-image-with-hidden-image.jpg)
 
 You (or the party you are trying to send a hidden message to) can also run an image extractor in the software which will extract the hidden image from the combined image.
 
 Example of the hidden image extracted from the combined image:
 
-![extracted image]()
+![extracted image](https://github.com/RealMaximeCaloz/Portfolio/blob/7b6f6c8bc71cd3dca12de19d0a39c66480079096/hidden-image-extracted-from-composite.jpg)
 
 As you can see, the extracted hidden image has inherited a few visual artefacts.
 
