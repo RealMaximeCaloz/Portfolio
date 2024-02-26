@@ -3,7 +3,7 @@ ___
 ## Multithreaded Sudoku Solver
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Multithreaded-Sudoku-Solver)
 
-This project was made with Java (Libraries: Concurrent, Arraylist).
+This project was made with <b>Java (Libraries: Concurrent, Arraylist)</b>.
 
 This software takes a Sudoku board as an input (array of numbers from 1 to 9, with 0's representing empty cells), solves the board through a recursive algorithm and prints the result.
 
@@ -23,7 +23,7 @@ ___
 ## Commercial Bulk Instagram Post Generator
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Commercial-Bulk-Instagram-Post-Generator)
 
-This project was made with Java (Libraries: AWT, I/O, Graphics).
+This project was made with <b>Java (Libraries: AWT, I/O, Graphics)</b>.
 
 This software takes into input a folder filled with images (backgrounds for posts), and an array of strings with the text to add to each post.
 
@@ -36,13 +36,25 @@ You can even brand the posts with your own Instagram handle, to prevent content 
 If you want to generate 1000 posts in seconds, so that you do not have to worry about content creation for the next 3 years, you can simply use this software.
 
 Example of a generated Instagram post:
+
 ![generated post example](https://github.com/RealMaximeCaloz/Portfolio/blob/9bafd87537acef1f05bb3b98450d5e4c2e436707/GeneratedInstagramPostExample.jpg)
+
+A [REST API version](https://github.com/RealMaximeCaloz/REST_API) of this program has also been created to practice using Spring Boot and Thymeleaf.
+
+The REST API features a front-end which accepts a String and an image as inputs.
+
+![api_inputs](https://github.com/RealMaximeCaloz/Portfolio/blob/17861c2ebc76d13eea9eb51ff4c8d721b5c5d1b0/pic1_rest_api.png)
+
+
+The API adds the text to the image provided, and returns the processed image to the user on the front end.
+
+![api_outputs](https://github.com/RealMaximeCaloz/Portfolio/blob/17861c2ebc76d13eea9eb51ff4c8d721b5c5d1b0/pic2_rest_api.png)
 
 ___
 ## Image Cryptography Tool
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Image-Cryptography-Tool)
 
-This project was made with Python (Libraries: PIL, NumPy).
+This project was made with <b>Python (Libraries: PIL, NumPy)</b>.
 
 This software uses bitwise operations to cloak a given image within the image information of another image, making it nearly invisible to unsuspecting parties.
 
