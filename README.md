@@ -36,6 +36,7 @@ You can even brand the posts with your own Instagram handle, to prevent content 
 If you want to generate 1000 posts in seconds, so that you do not have to worry about content creation for the next 3 years, you can simply use this software.
 
 Example of a generated Instagram post:
+
 ![generated post example](https://github.com/RealMaximeCaloz/Portfolio/blob/9bafd87537acef1f05bb3b98450d5e4c2e436707/GeneratedInstagramPostExample.jpg)
 
 A [REST API version](https://github.com/RealMaximeCaloz/REST_API) of this program has also been created to practice using Spring Boot and Thymeleaf.
@@ -49,6 +50,41 @@ The API adds the text to the image provided, and returns the processed image to 
 
 ![api_outputs](https://github.com/RealMaximeCaloz/Portfolio/blob/17861c2ebc76d13eea9eb51ff4c8d721b5c5d1b0/pic2_rest_api.png)
 
+___
+## Full-Stack License Manager Web App
+
+This project was made with Javascript (React, Node, Express), SQLite, HTML & CSS.
+
+The License Manager web app is meant to be a platform where clients of a software company can login to view, purchase or extend their access to software licenses.
+
+The License Manager currently has the following features:
+-	User login (with verification of inputs and feedback to the user)
+-	License Manager Dashboard with dynamically rendered content pulled from the database tables, depending on who is logged in
+-	Simulated credit card payment to buy a license (with input verification)
+-	Unique License Key Generator in the backend (with keygen rules to make guessing license keys very difficult)
+-	Verification of the validity of input license keys
+-	Managing/Manipulation of data and accesses in the database tables
+
+Down below, you can see a screenshot of the login page.
+
+![login](https://github.com/RealMaximeCaloz/Portfolio/blob/5b84cdf878e426b75ab4dd23a3cd32d08442b9c3/license_manager_pic1.png)
+
+
+Here is a screenshot of the License Manager's Dashboard:
+
+![dashboard](https://github.com/RealMaximeCaloz/Portfolio/blob/5b84cdf878e426b75ab4dd23a3cd32d08442b9c3/license_manager_pic2.png)
+
+The user's first name and profile picture is dynamically generated based on who is logged in, as well as all license data in the dashboard.
+
+Down below, you can find a screenshot of the License Manager's Popup to purchase a new license or redeem an externally-obtained license.
+
+![Purchase Popup](https://github.com/RealMaximeCaloz/Portfolio/blob/5b84cdf878e426b75ab4dd23a3cd32d08442b9c3/license_manager_pic3.png)
+
+More features will later be added such as:
+-	Sign up feature
+-	Improved security features
+-	Ability to change user profile picture
+-	Stripe integration for payments
 ___
 ## Image Cryptography Tool
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Image-Cryptography-Tool)
@@ -80,3 +116,27 @@ Example of the hidden image extracted from the combined image:
 As you can see, the extracted hidden image has inherited a few visual artefacts.
 
 However, its depiction is still blatantly obvious, despite having been secretly cloaked in a completely different image.
+
+___
+## TurboSpeed - Infinite Scrolling Racing Game
+[Click here to view this project's code repository](https://github.com/RealMaximeCaloz/TurboSpeed/tree/master)
+
+This project was made with <b>Python (Library: Pygame)</b>.
+
+TurboSpeed is an engaging and addictive arcade-style infinite scrolling racing game developped with Python and the Pygame library.
+
+In TurboSpeed, the player controls a car speeding down a dynamically-scrolling road, with the objective of avoiding boulders for as long as possible. As time goes on, the car moves faster and faster, thus increasing the difficulty.
+
+Down below, you can see a screenshot of the gameplay.
+
+![gameplay](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/gameplay.png)
+
+
+Here is a screenshot of the TurboSpeed title screen.
+
+![title screen](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/title_screen.png)
+
+Down below, you can find a screenshot of the TurboSpeed game over screen (and my high score!).
+
+![game over screen](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/game_over_screen.png)
+
