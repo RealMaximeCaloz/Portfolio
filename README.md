@@ -4,11 +4,17 @@
 
 ## AI-Powered Learning Platform
 
-This full-stack project is an AI-powered learning platform where users enter any topic they want to learn, answer prerequisite and clarification questions, and receive a personalized course generated on the fly, with a Duolingo-style UI. The platform is split across two repositories: a Go backend that handles authentication, billing, and course generation, and a frontend web client that guides learners through creation, lessons, streaks, and progress.
+This full-stack project is an AI-powered learning platform where users enter any topic they want to learn, answer prerequisite and clarification questions, and receive a personalized course generated on the fly, with a Duolingo-style UI.
+
+This platform is especially effective in the sense that it remembers what users have already learned, avoiding unintentionally re-teaching the same topics excessively outside of planned spaced repetition.
+
+The platform is split across two repositories: a Go backend that handles authentication, billing, and course generation, and a frontend web client that guides learners through creation, lessons, streaks, and progress.
 
 Down below, you can see screenshots of the AI-Powered Learning Platform:
 
-On the backend, courses are built asynchronously through a multi-step pipeline. The system researches each topic submitted by the user with web searches from the DuckDuckGo API, indexing scraped content in a Qdrant vector database for retrieval-augmented generation (RAG), and uses OpenAI API with RAG to produce a full course, complete with units, lessons, and micro-lessons, each with text content, optional Mermaid diagrams, and quizzes. User progress is tracked in SQLite with XP rewards, level progression, daily streaks, and completion state at every level of the course tree. The backend also handles Google OAuth login, JWT sessions, Stripe subscriptions and webhooks, rate limiting, and Swagger documentation.
+![AI-Powered Learning Platform](/screenshots/ai-powered-learning-platform.png)
+
+On the backend, courses are built asynchronously through a multi-step pipeline. The system researches each topic submitted by the user with web searches, indexing scraped content in a Qdrant vector database for retrieval-augmented generation (RAG), and uses OpenAI API with RAG to produce a full course, complete with units, lessons, and micro-lessons, each with text content, optional Mermaid diagrams, and quizzes. User progress is tracked in SQLite with XP rewards, level progression, daily streaks, and completion state at every level of the course tree. The backend also handles Google OAuth login, JWT sessions, Stripe subscriptions and webhooks, rate limiting, and Swagger documentation.
 
 On the frontend, learners sign in, create courses from their topic of choice, rate their prerequisite skills, and browse generated material through pages for course overview, individual lessons, and account management. The UI uses a gamified layout, and connects to the backend over REST.
 The web app is fully-responsive, working on desktop, or on mobile in the browser. Additionally, the web app is available for download on mobile as a PWA (Progressive Wev App), with a service worker and web manifest for offline-friendly access.
@@ -40,11 +46,11 @@ Down below, you can see screenshots of this car database web app in full glory, 
 
 You can use the left and right triangular buttons to navigate between the specs of various cars.
 
-Idle UI
+![Idle UI](https://github.com/RealMaximeCaloz/car-database-app/blob/1b28bab5db43eb5d66e3555cc5694450c1555b8d/screenshots/car_db_idle_ui.png)
 
 If you would like even more control, you may click the title banner in the middle to make a drop down menu appear. From this menu, you can choose to display whichever car you wish.
 
-Drop down menu
+![Drop down menu](https://github.com/RealMaximeCaloz/car-database-app/blob/1b28bab5db43eb5d66e3555cc5694450c1555b8d/screenshots/car_db_drop_down_menu.png)
 
 This project was made with **HTML, CSS, JavaScript (node, express)**.
 
@@ -60,7 +66,7 @@ This software takes a Sudoku board as an input (array of numbers from 1 to 9, wi
 
 An example of an initial Sudoku board to solve:
 
-starting board
+![starting board](screenshots/startingboard.png)
 
 If the board is unsolvable, that information will be printed for the user.
 
@@ -68,7 +74,7 @@ A new ExecutorService job is submitted for each number which would be a valid gu
 
 The Sudoku board is solved very quickly, even if it is near-impossible to solve for humans:
 
-final board
+![final board](screenshots/finalboard.png)
 
 ---
 
@@ -90,17 +96,17 @@ If you want to generate 1000 posts in seconds, so that you do not have to worry 
 
 Example of a generated Instagram post:
 
-generated post example
+![generated post example](screenshots/GeneratedInstagramPostExample.jpg)
 
 A [REST API version](https://github.com/RealMaximeCaloz/REST_API) of this program has also been created to practice using Spring Boot and Thymeleaf.
 
 The REST API features a front-end which accepts a String and an image as inputs.
 
-api_inputs
+![api_inputs](screenshots/pic1_rest_api.png)
 
 The API adds the text to the image provided, and returns the processed image to the user on the front end.
 
-api_outputs
+![api_outputs](screenshots/pic2_rest_api.png)
 
 ---
 
@@ -121,17 +127,17 @@ The License Manager currently has the following features:
 
 Down below, you can see a screenshot of the login page.
 
-login
+![login](screenshots/license_manager_pic1.png)
 
 Here is a screenshot of the License Manager's Dashboard:
 
-dashboard
+![dashboard](screenshots/license_manager_pic2.png)
 
 The user's first name and profile picture is dynamically generated based on who is logged in, as well as all license data in the dashboard.
 
 Down below, you can find a screenshot of the License Manager's Popup to purchase a new license or redeem an externally-obtained license.
 
-Purchase Popup
+![Purchase Popup](screenshots/license_manager_pic3.png)
 
 More features will later be added such as:
 -	Improved security features
@@ -149,23 +155,23 @@ This software uses bitwise operations to cloak a given image within the image in
 
 Example of an image to hide:
 
-image to hide
+![image to hide](screenshots/epiccar.jpg)
 
 Example of the container image in which you want to cloak your hidden image:
 
-container image
+![container image](screenshots/basiccar.jpg)
 
 After running this software, you obtain a combined image which contains the hidden image, but it looks very much like the unmodified container image.
 
 Example of the combined image, which contains the hidden image:
 
-combined image
+![combined image](screenshots/composite-image-with-hidden-image.jpg)
 
 You (or the party you are trying to send a hidden message to) can also run an image extractor in the software, which will extract the hidden image from the combined image.
 
 Example of the hidden image extracted from the combined image:
 
-extracted image
+![extracted image](screenshots/hidden-image-extracted-from-composite.jpg)
 
 As you can see, the extracted hidden image has inherited a few visual artefacts.
 
@@ -185,15 +191,15 @@ In TurboSpeed, the player controls a car speeding down a dynamically-scrolling r
 
 Down below, you can see a screenshot of the gameplay.
 
-gameplay
+![gameplay](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/gameplay.png)
 
 Here is a screenshot of the TurboSpeed title screen.
 
-title screen
+![title screen](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/title_screen.png)
 
 Down below, you can find a screenshot of the TurboSpeed game over screen (and my high score!).
 
-game over screen
+![game over screen](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/game_over_screen.png)
 
 ---
 
@@ -218,6 +224,7 @@ A game has also been created with this game engine.
 The game is called The Last Dragon Hunter and follows the story of a 220 year old dragon hunter, left alone to fend off organized attacks by the repopulating dragons.
 
 Down below, you can see a screenshot of the game and game engine in action:
-game
+
+![game](screenshots/the_last_dragon_hunter_gameplay_screenshot.png)
 
 The infrastructure in this c++ game engine offers text-based adventure game creators a flexible and relatively simple development experience, comprehensible even for non-developers.
